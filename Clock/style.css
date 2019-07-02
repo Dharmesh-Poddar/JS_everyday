@@ -1,0 +1,8 @@
+html{
+    background: url('./img.jpg');
+    background-size: cover;
+    margin:0px;
+
+    font-size: 10px;
+    font-family: 'helvetica neue';   
+}
