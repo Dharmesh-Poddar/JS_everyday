@@ -2,7 +2,7 @@ html{
     background: url('./img.jpg');
     background-size: cover;
     margin:0px;
-
+    text-align: center;
     font-size: 10px;
     font-family: 'helvetica neue';  
 
@@ -42,16 +42,17 @@ body{
    
 }
 .hand{
-
-    width:50%;
-    height:6px;
-    background:black;
-    position:absolute;
-    top:50%;
-    transform: origin 100%;;
+    width: 50%;
+    height: 6px;
+    background: black;
+    position: absolute;
+    top: 50%;
+    transform-origin: 100%;
     transform: rotate(90deg);
     transition: all 0.05s;
-    transition-timing-function:cubic-beizer(0.1,2.7,0.58,1);
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+  }
+   
     
 
 }
