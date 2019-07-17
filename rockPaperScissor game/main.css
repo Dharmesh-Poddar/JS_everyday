@@ -1,0 +1,38 @@
+* {  
+    margin :0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+    background-color: #24272e;
+
+}
+header {
+    background:white;
+    padding: 20px;
+
+}
+
+header > h1{
+ color: #24272E;
+ text-align :center;
+ font-family: Asap ,sans-serif;
+
+
+
+}
+.score-board{
+    margin: 20px auto;
+
+   border :3px solid white;
+   border-radius:4px;
+   text-align :center;
+   width:200px;
+   color:white;
+   font-size:46px;
+   padding:15px 20px;
+   font-family: Asap ,sans-serif;
+   
+
+}
