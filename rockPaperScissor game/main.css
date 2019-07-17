@@ -45,13 +45,19 @@ header > h1{
     font-family: Asap, sans-serif;
     
 }
-#user-label{
+#computer-label{
     position: absolute;
     top: 30px;
     right: -30px;
 
 }
-.result{
+#user-label{
+    position: absolute;
+    top: 30px;
+    left: -25px;
+}
+
+    .result{
     font-size :40px;
     color:white;
 
