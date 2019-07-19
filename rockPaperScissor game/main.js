@@ -1,5 +1,5 @@
-const userScore =0 ;
-const computerScore =0;
+let userScore =0 ;
+let computerScore =0;
 const userScore_span =document.getElementById("user-score");
 const computerScore_span =document.getElementById("computer-score");
 const scoreBoard_div =document.querySelector(".score-board");
@@ -8,6 +8,13 @@ const rock_div =document.getElementById("r");
 const paper_div =document.getElementById("p");
 const scissors_div= document.getElementById("s");
 
+function win(userChoice,computerChoice){
+    userScore++;
+    userScore_span.innerHTML =userScore;
+
+
+
+}
 
 function getComputerChoice(){
    
@@ -23,7 +30,8 @@ function game(userChoice){
        case "rs":
        case "pr":
        case "sp":
-       console.log("user wins");
+         win(userChoice, computerChoice);
+
          break;
        case "rp":
        case "ps":
@@ -35,7 +43,7 @@ function game(userChoice){
        case "ss":
         console.log("its a draw. ");
         break;
-        
+
 
    }
    
