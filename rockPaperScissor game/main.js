@@ -12,22 +12,21 @@ const scissors_div= document.getElementById("s");
 function getComputerChoice(){
    
     const choices= ['r','p','s'];
-    const randomChoice= Math.floor(Math.random*3);
+    const randomChoice= Math.floor(Math.random()*3);
+
     return choices[randomChoice];
-    
+}
+function game(userChoice){
+   const computerChoice = getComputerChoice();
+    console.log("user choice => "+userChoice);
+    console.log("computer choice => "+computerChoice);
+
 
 
 }
 
 function main(){
 
-
-    function game(userInput){
-     
-         console.log('you clicked  '+ userInput );
-
-
-    }
 
 rock_div.addEventListener('click',function(){
     game("r");
