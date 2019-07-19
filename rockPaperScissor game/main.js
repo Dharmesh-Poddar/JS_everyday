@@ -9,7 +9,18 @@ const paper_div =document.getElementById("p");
 const scissors_div= document.getElementById("s");
 
 
+function getComputerChoice(){
+   
+    const choices= ['r','p','s'];
+    const randomChoice= Math.floor(Math.random*3);
+    return choices[randomChoice];
+    
+
+
+}
+
 function main(){
+
 
     function game(userInput){
      
