@@ -1,0 +1,51 @@
+<<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    
+</head>
+<body>
+
+
+        <script type="text/javascript">
+         
+
+         let c1={
+             x:5 ,
+
+             y:1
+
+            };
+
+        let c2={
+            x:14 ,
+            y:34 
+
+        };
+
+
+     function printCoordinates(){
+
+         console.log(this.x +' , '+this.y);
+
+
+     }
+
+     let c1_function = printCoordinates.bind(c1);
+     let c2_function =printCoordinates.bind(c2);
+
+     c1_function();
+     c2_function();
+     
+
+        
+        
+        
+        </script>
+    
+</body>
+</html>/>
